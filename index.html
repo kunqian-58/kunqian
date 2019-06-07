@@ -7,6 +7,10 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="https://kit.fontawesome.com/32c02b05a2.js"></script>
+
+
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
@@ -73,7 +77,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
                         <b>Master in Software Engineering</b></span>
                         <br>2007-2010
                         <br>Beihang University (China)
-                        <br>Visited <b class="w3-text-dark-grey">Kyushu University </b>(Japan) from 2008-2009
+                        <br>Visited <b class="w3-text-dark-grey">Kyushu University</b>(Japan) from 2008-2009
                     </p>
                     <p><span class="w3-text-black">
                         <b>Bachelor in Software Engineering</b></span>
@@ -191,6 +195,14 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
                                 <span> SystemER: A Human-in-the-loop System for Explainable Entity Resolution.</span><br>
                                 <b class="w3-text-black">The 45th International Conference on Very Large Data Bases (VLDB 2019). </b>  (to appear).
                                 <br> Los Angeles, USA
+                                <br>
+                                <div class="w3-margin-top">
+                                    <span onclick="showDemo('SystemER_demo')" class="w3-padding-small w3-small w3-round w3-amber w3-hover-indigo" style="cursor:pointer">Video demo <i class="fab fa-youtube w3-meidum"></i></span>
+                                    <div id="SystemER_demo" class="w3-margin-top w3-hide w3-container">
+                                        <span class="w3-small">Recorded in March 2019</span>
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/nsRAONFU_ak" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
                             </li>
 
                             <li class="w3-margin-left w3-margin-top">
@@ -213,6 +225,13 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
                                 <span> LUSTRE: An Interactive System for Entity Structured Representation and Variant Generation.</span><br>
                                 <b class="w3-text-black"> The 34th IEEE International Conference on Data Engineering (IEEE ICDE 2018).</b>
                                 <br> Paris, France.
+                                <div class="w3-margin-top">
+                                    <span onclick="showDemo('lustre_demo')" class="w3-padding-small w3-small w3-round w3-amber w3-hover-indigo" style="cursor:pointer">Video demo <i class="fab fa-youtube w3-meidum"></i></span>
+                                    <div id="lustre_demo" class="w3-margin-top w3-hide w3-container">
+                                        <span class="w3-small">Recorded in December 2017</span>
+                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/nsRAONFU_ak" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
                             </li>
 
                             <li class="w3-margin-left w3-margin-top">
@@ -283,6 +302,18 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     <p>Website written by HTML, W3.CSS</p>
     <p>Last update: June 5th, 2019</p>
 </footer>
+
+<script>
+function showDemo(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
 
 </body>
 </html>
