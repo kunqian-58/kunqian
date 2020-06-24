@@ -1,7 +1,7 @@
-<body class="w3-small w3-content" style="width:70%; max-width:1600px">
+<body class="w3-medium w3-content" style="width:75%; max-width:1600px">
 
     <!-- Sidebar/menu -->
-    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:250px;" id="mySidebar"><br>
+    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:280px;" id="mySidebar"><br>
       <div class="w3-container">
         <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
           <i class="fa fa-remove"></i>
@@ -47,9 +47,12 @@
     <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
     
     <!-- !PAGE CONTENT! -->
+    <div style="margin-top:10px"></div>
     <div class="w3-main" style="margin-left:300px">
+    
         <div class="w3-container w3-padding-large" id="about">
-            <h4><b>About Me</b></h4>
+            <div style="margin-top:10px"></div>
+            <h4><b>Welcome to Kun's Personal Website</b></h4>
             <p>My name is Kun Qian (钱坤 in Chinese). I am currently a researcher at IBM Research. 
                 My research is at the intersection of data integration, artificial intelligence, and NLP. 
                 The goal of my work is to build intelligent human-in-the-loop machine learning systems 
@@ -140,7 +143,11 @@
             <h4><b>Research & Publications</b></h4>
 
             <div class="w3-margin-top">
-                
+                <div class="w3-margin-top w3-margin-bottom">
+                    <a class="w3-padding-small w3-small w3-round w3-indigo w3-hover-blue w3-margin-right"
+                        href="https://dblp.uni-trier.de/pers/hd/q/Qian_0002:Kun" target="_blank" style="text-decoration:none">DBLP Profile</a>
+
+                </div>
                 <p style="font-style: italic;"><b>Research Interests</b>: human-in-the-loop machine learning, active learning, deep learning, data integration and data exchange.</p>
                 <p> My research interests have been focused on data exchange and information integration to, more recently, human-in-the-loop machine learning. 
                     I am interested in building intelligent human-in-the-loop machine learning (particuarly, deep learning) systems, with intuitive UI, for entity-centric AI tasks. 
@@ -171,10 +178,14 @@
                             <div>
                                 <span class="w3-margin-right"><b>({{paper.venue_short}})</b></span> 
                                 <!-- <span>{{paper.venue_full}}</span> -->
-                                <a *ngIf="paper.pdf_url!='na'" class="w3-tiny w3-round w3-dark-grey w3-hover-indigo w3-margin-right"
-                                    href="{{paper.pdf_url}}"   target="_blank" style="padding:1px 4px; text-decoration:none">PDF<i class="fa fa-file-o"></i></a>
-                                <a *ngIf="paper.video_url!='na'" class="w3-tiny w3-round w3-indigo w3-hover-indigo w3-margin-right"
-                                    href="{{paper.video_url}}" target="_blank"   style="padding:1px 4px; text-decoration:none">Video<i class="fa fa-play-circle-o"></i></a>
+                                <a *ngIf="paper.pdf_url!='na'" class="w3-tiny w3-round w3-dark-grey w3-hover-indigo"
+                                    href="{{paper.pdf_url}}"   target="_blank" style="margin-right:0.5em; padding:2px 4px; text-decoration:none">pdf<i class=""></i></a>
+                                <a *ngIf="paper.video_url!='na'" class="w3-tiny w3-round w3-indigo w3-hover-indigo"
+                                    href="{{paper.video_url}}" target="_blank"   style="margin-right:0.5em; padding:2px 4px; text-decoration:none">video<i class=""></i></a>
+                                <a *ngIf="paper.bibtex!=null" class="w3-tiny w3-text-white w3-round w3-hover-pink"
+                                    (click)="showbibtex(paper)"  style="margin-right:0.5em; background-color:#5d88ab; padding:2px 4px; cursor:pointer; text-decoration:none">bibtex<i class=""></i></a>
+                                <a *ngIf="paper.bibtex_url!=null" class="w3-tiny w3-text-white w3-round w3-hover-pink"
+                                    href="{{paper.bibtex_url}}" target="_blank" style="margin-right:0.5em; background-color:#5d88ab; padding:2px 4px; cursor:pointer; text-decoration:none">bibtex<i class=""></i></a>
                             </div>
                         
                             <div class="w3-margin-top"></div>
@@ -200,10 +211,14 @@
                                 <div>
                                     <span class="w3-margin-right"><b>({{paper.venue_short}})</b></span> 
                                     <!-- <span>{{paper.venue_full}}</span> -->
-                                    <a *ngIf="paper.pdf_url!='na'" class="w3-tiny w3-round w3-dark-grey w3-hover-indigo w3-margin-right"
-                                        href="{{paper.pdf_url}}"   target="_blank" style="padding:1px 4px; text-decoration:none">PDF<i class="fa fa-file-o"></i></a>
-                                    <a *ngIf="paper.video_url!='na'" class="w3-tiny w3-round w3-indigo w3-hover-indigo w3-margin-right"
-                                        href="{{paper.video_url}}" target="_blank"   style="padding:1px 4px; text-decoration:none">Video<i class="fa fa-play-circle-o"></i></a>
+                                    <a *ngIf="paper.pdf_url!='na'" class="w3-tiny w3-round w3-dark-grey w3-hover-indigo"
+                                        href="{{paper.pdf_url}}"   target="_blank" style="margin-right:0.5em; padding:2px 4px; text-decoration:none">pdf<i class=""></i></a>
+                                    <a *ngIf="paper.video_url!='na'" class="w3-tiny w3-round w3-indigo w3-hover-indigo"
+                                        href="{{paper.video_url}}" target="_blank"   style="margin-right:0.5em; padding:2px 4px; text-decoration:none">video<i class=""></i></a>
+                                    <a *ngIf="paper.bibtex!=null" class="w3-tiny w3-text-white w3-round w3-hover-pink"
+                                        (click)="showbibtex(paper)"  style="margin-right:0.5em; background-color:#5d88ab; padding:2px 4px; cursor:pointer; text-decoration:none">bibtex<i class=""></i></a>
+                                    <a *ngIf="paper.bibtex_url!=null" class="w3-tiny w3-text-white w3-round w3-hover-pink"
+                                        href="{{paper.bibtex_url}}" target="_blank" style="margin-right:0.5em; background-color:#5d88ab; padding:2px 4px; cursor:pointer; text-decoration:none">bibtex<i class=""></i></a>
                                 </div>
                             
                                 <div class="w3-margin-top"></div>
@@ -230,10 +245,14 @@
                                 <div>
                                     <span class="w3-margin-right"><b>({{paper.venue_short}})</b></span> 
                                     <!-- <span>{{paper.venue_full}}</span> -->
-                                    <a *ngIf="paper.pdf_url!='na'" class="w3-tiny w3-round w3-dark-grey w3-hover-indigo w3-margin-right"
-                                        href="{{paper.pdf_url}}"   target="_blank" style="padding:1px 4px; text-decoration:none">PDF<i class="fa fa-file-o"></i></a>
-                                    <a *ngIf="paper.video_url!='na'" class="w3-tiny w3-round w3-indigo w3-hover-indigo w3-margin-right"
-                                        href="{{paper.video_url}}" target="_blank"   style="padding:1px 4px; text-decoration:none">Video<i class="fa fa-play-circle-o"></i></a>
+                                    <a *ngIf="paper.pdf_url!='na'" class="w3-tiny w3-round w3-dark-grey w3-hover-indigo"
+                                        href="{{paper.pdf_url}}"   target="_blank" style="margin-right:0.5em; padding:2px 4px; text-decoration:none">pdf<i class=""></i></a>
+                                    <a *ngIf="paper.video_url!='na'" class="w3-tiny w3-round w3-indigo w3-hover-indigo"
+                                        href="{{paper.video_url}}" target="_blank"   style="margin-right:0.5em; padding:2px 4px; text-decoration:none">video<i class=""></i></a>
+                                    <a *ngIf="paper.bibtex!=null" class="w3-tiny w3-text-white w3-round w3-hover-pink"
+                                        (click)="showbibtex(paper)"  style="margin-right:0.5em; background-color:#5d88ab; padding:2px 4px; cursor:pointer; text-decoration:none">bibtex<i class=""></i></a>
+                                    <a *ngIf="paper.bibtex_url!=null" class="w3-tiny w3-text-white w3-round w3-hover-pink"
+                                        href="{{paper.bibtex_url}}" target="_blank" style="margin-right:0.5em; background-color:#5d88ab; padding:2px 4px; cursor:pointer; text-decoration:none">bibtex<i class=""></i></a>
                                 </div>
                             
                                 <div class="w3-margin-top"></div>
@@ -259,10 +278,14 @@
                             <div>
                                 <span class="w3-margin-right"><b>({{paper.venue_short}})</b></span> 
                                 <!-- <span>{{paper.venue_full}}</span> -->
-                                <a *ngIf="paper.pdf_url!='na'" class="w3-tiny w3-round w3-dark-grey w3-hover-indigo w3-margin-right"
-                                    href="{{paper.pdf_url}}"   target="_blank" style="padding:1px 4px; text-decoration:none">PDF<i class="fa fa-file-o"></i></a>
-                                <a *ngIf="paper.video_url!='na'" class="w3-tiny w3-round w3-indigo w3-hover-indigo w3-margin-right"
-                                    href="{{paper.video_url}}" target="_blank"   style="padding:1px 4px; text-decoration:none">Video<i class="fa fa-play-circle-o"></i></a>
+                                <a *ngIf="paper.pdf_url!='na'" class="w3-tiny w3-round w3-dark-grey w3-hover-indigo"
+                                    href="{{paper.pdf_url}}"   target="_blank" style="margin-right:0.5em; padding:2px 4px; text-decoration:none">pdf<i class=""></i></a>
+                                <a *ngIf="paper.video_url!='na'" class="w3-tiny w3-round w3-indigo w3-hover-indigo"
+                                    href="{{paper.video_url}}" target="_blank"   style="margin-right:0.5em; padding:2px 4px; text-decoration:none">video<i class=""></i></a>
+                                <a *ngIf="paper.bibtex!=null" class="w3-tiny w3-text-white w3-round w3-hover-pink"
+                                    (click)="showbibtex(paper)"  style="margin-right:0.5em; background-color:#5d88ab; padding:2px 4px; cursor:pointer; text-decoration:none">bibtex<i class=""></i></a>
+                                <a *ngIf="paper.bibtex_url!=null" class="w3-tiny w3-text-white w3-round w3-hover-pink"
+                                    href="{{paper.bibtex_url}}" target="_blank" style="margin-right:0.5em; background-color:#5d88ab; padding:2px 4px; cursor:pointer; text-decoration:none">bibtex<i class=""></i></a>
                             </div>
                         
                             <div class="w3-margin-top"></div>

@@ -13,6 +13,12 @@ export class HomeComponent implements OnInit {
   demo_papers = []
   tutorials = []
 
+  showbibtex(paper)
+  {
+    var mywindow = window.open("", "bibtex");
+    mywindow.document.write(paper["bibtex"])
+  }
+
   constructor() {
     console.log(this.mypapers);
    }
