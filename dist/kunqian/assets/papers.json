@@ -32,7 +32,8 @@
      "pages": "??-??",
      "type": "regular",
      "pdf_url": "https://www.aclweb.org/anthology/2020.nli-1.1/",
-     "video_url": "na"
+     "video_url": "na",
+     "bibtex_url": "https://www.aclweb.org/anthology/2020.nli-1.1.bib"
     },
     {
      "title": "XAIT: An Interactive Website for Explainable AI for Text.",
@@ -48,7 +49,8 @@
      "pages": "??-??",
      "type": "demo",
      "pdf_url": "https://dl.acm.org/doi/abs/10.1145/3379336.3381468",
-     "video_url": "na"
+     "video_url": "na",
+     "bibtex_url": "https://scholar.googleusercontent.com/scholar.bib?q=info:yaLtSjiy9rAJ:scholar.google.com/&output=citation&scisdr=CgWZes6wENyFnRqtjR8:AAGBfm0AAAAAXvOolR8M9l5aOnakU6m8SgjLiZ3Gp-JI&scisig=AAGBfm0AAAAAXvOolWsE0eo5KgmcRiRslZO677aYUMk7&scisf=4&ct=citation&cd=-1&hl=en"
     },
     {
      "title": "PARTNER: Human-in-the-loop Entity Understanding with Deep Learning.",
@@ -64,7 +66,8 @@
      "pages": "??-??",
      "type": "demo",
      "pdf_url": "https://www.aaai.org/Papers/AAAI/2020GB/DEMO-QianK.388.pdf",
-     "video_url": "https://www.youtube.com/watch?v=Q1zgmZCOs6A&feature=youtu.be"
+     "video_url": "https://www.youtube.com/watch?v=Q1zgmZCOs6A&feature=youtu.be",
+     "bibtex_url": "https://scholar.googleusercontent.com/scholar.bib?q=info:ic3U6GrgtjUJ:scholar.google.com/&output=citation&scisdr=CgWZes6wENyFnRqtqUk:AAGBfm0AAAAAXvOosUmSZQWEJfnelVljJYaCq1eZAIbj&scisig=AAGBfm0AAAAAXvOosbCuc8AqRb6T1JeN3BlzHD_7toC5&scisf=4&ct=citation&cd=-1&hl=en"
     },
     {
      "title": "Learning-based Human-in-the-loop Methods for Entity Resolution.",
@@ -81,7 +84,8 @@
      "type": "tutorial",
      "pdf_url": "https://ertutorial-arc.github.io/",
      "websiste": "https://ertutorial-arc.github.io/",
-     "video_url": "na"
+     "video_url": "na",
+     "bibtex_url": "https://scholar.googleusercontent.com/scholar.bib?q=info:dQyDnxK3ttQJ:scholar.google.com/&output=citation&scisdr=CgWZes6wENyFnRqt6fk:AAGBfm0AAAAAXvOo8fmCA98upP-wVI-0rp321uk7eEcG&scisig=AAGBfm0AAAAAXvOo8aDJ1WMZPD4h7Pflt36CQzino7x2&scisf=4&ct=citation&cd=-1&hl=en"
     },
     {
      "title": "Learning Explainable Entity Resolution Algorithms for Small Business Data using SystemER.",
@@ -98,7 +102,8 @@
      "type": "workshop",
      "pdf_url": "https://dl.acm.org/doi/10.1145/3336499.3338010",
      "websiste": "na",
-     "video_url": "na"
+     "video_url": "na",
+     "bibtex_url": "https://scholar.googleusercontent.com/scholar.bib?q=info:n4fJm9hqiX8J:scholar.google.com/&output=citation&scisdr=CgWZes6wENyFnRqsOgE:AAGBfm0AAAAAXvOpIgEGMZUJ7mXWYPEP2M7c2j95a6T-&scisig=AAGBfm0AAAAAXvOpIrbk3_NvO-OhXl7reh84uiIxJDik&scisf=4&ct=citation&cd=-1&hl=en"
     },
     {
      "title": "Low-resource Deep Entity Resolution with Transfer and Active Learning.",
@@ -116,7 +121,8 @@
      "type": "regular",
      "pdf_url": "https://www.aclweb.org/anthology/P19-1586/",
      "websiste": "na",
-     "video_url": "na"
+     "video_url": "na",
+     "bibtex_url": "https://www.aclweb.org/anthology/P19-1586.bib"
     },
     {
      "title": "SystemER: A Human-in-the-loop System for Explainable Entity Resolution.",
@@ -132,7 +138,8 @@
      "type": "demo",
      "pdf_url": "http://www.vldb.org/pvldb/vol12/p1794-qian.pdf",
      "websiste": "na",
-     "video_url": "https://youtu.be/nsRAONFU_ak"
+     "video_url": "https://youtu.be/nsRAONFU_ak",
+     "bibtex_url": "https://scholar.googleusercontent.com/scholar.bib?q=info:grVSJr1gVm4J:scholar.google.com/&output=citation&scisdr=CgWZes6wENyFnRqsH7c:AAGBfm0AAAAAXvOpB7fhbL8yxB_dMMO80_9C--CYBlSa&scisig=AAGBfm0AAAAAXvOpB0a8_9quDnTKzZguuZxyw4PgVH1e&scisf=4&ct=citation&cd=-1&hl=en"
     },
     {
      "title": "Knowledge Refinement via Rule Selection.",
@@ -148,7 +155,8 @@
      "type": "regular",
      "pdf_url": "https://aaai.org/ojs/index.php/AAAI/article/view/4143",
      "websiste": "na",
-     "video_url": "na"
+     "video_url": "na",
+     "bibtex_url": "https://scholar.googleusercontent.com/scholar.bib?q=info:hnGmeJdR8asJ:scholar.google.com/&output=citation&scisdr=CgWZes6wENyFnRqseV0:AAGBfm0AAAAAXvOpYV3TGw_YciGpYPhOC7-MSn9-u1I5&scisig=AAGBfm0AAAAAXvOpYTcJSxgo_V3JiTD2jqeS46P-3FSg&scisf=4&ct=citation&cd=-1&hl=en"
     },
     {
      "title": "LUSTRE: An Interactive System for Entity Structured Representation and Variant Generation.",
@@ -166,7 +174,8 @@
      "type": "demo",
      "pdf_url": "https://ieeexplore.ieee.org/document/8509410",
      "websiste": "na",
-     "video_url": "https://www.youtube.com/watch?v=llaT4Sz6uI4"
+     "video_url": "https://www.youtube.com/watch?v=llaT4Sz6uI4",
+     "bibtex_url": "https://scholar.googleusercontent.com/scholar.bib?q=info:EEpW04R5u4MJ:scholar.google.com/&output=citation&scisdr=CgWZes6wENyFnRqskDM:AAGBfm0AAAAAXvOpiDNLrhNX5sMdkfaacWduldGgPrai&scisig=AAGBfm0AAAAAXvOpiIUvVJiz4WMVbQVBjchx8YJQAIT0&scisf=4&ct=citation&cd=-1&hl=en"
     },
     {
      "title": "Active Learning of GAV Schema Mappings.",
@@ -183,7 +192,8 @@
      "type": "regular",
      "pdf_url": "https://dl.acm.org/doi/10.1145/3196959.3196974",
      "websiste": "na",
-     "video_url": "https://youtu.be/FsQttqJQLXA"
+     "video_url": "https://youtu.be/FsQttqJQLXA",
+     "bibtex_url": "https://scholar.googleusercontent.com/scholar.bib?q=info:xhcQyhLhesQJ:scholar.google.com/&output=citation&scisdr=CgWZes6wENyFnRqstYQ:AAGBfm0AAAAAXvOprYQCyTvdLLoJfqhMU6GmMsYy5lhC&scisig=AAGBfm0AAAAAXvOprbToKYfzKVuvx3iBhITH-pV7G8Tj&scisf=4&ct=citation&cd=-1&hl=en"
     },
     {
      "title": "Active Learning for Large-Scale Entity Resolution.",
@@ -199,7 +209,8 @@
      "type": "regular",
      "pdf_url": "https://dl.acm.org/doi/10.1145/3132847.3132949",
      "websiste": "na",
-     "video_url": "na"
+     "video_url": "na",
+     "bibtex_url": "https://scholar.googleusercontent.com/scholar.bib?q=info:rvNgvwjCoM4J:scholar.google.com/&output=citation&scisdr=CgWZes6wENyFnRqsydM:AAGBfm0AAAAAXvOp0dNPYBWtJN0uiKyxebZpXgaP7zP-&scisig=AAGBfm0AAAAAXvOp0dwqL4kSnjcY-tzLfXvJeOJLkKLD&scisf=4&ct=citation&cd=-1&hl=en"
     },
     {
      "title": "Approximation Algorithms for Schema-Mapping Discovery from Data Examples.",
@@ -216,7 +227,8 @@
      "type": "regular",
      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3044712",
      "websiste": "na",
-     "video_url": "na"
+     "video_url": "na",
+     "bibtex_url": "https://scholar.googleusercontent.com/scholar.bib?q=info:DPz7bg4Kat4J:scholar.google.com/&output=citation&scisdr=CgWZes6wENyFnRqs_1E:AAGBfm0AAAAAXvOp51HZEaEqSInYtK98EZg615OFYG1V&scisig=AAGBfm0AAAAAXvOp5699tuzupgJ3QRKsBSVPum2tHaI7&scisf=4&ct=citation&cd=-1&hl=en"
     },
     {
      "title": "Approximation Algorithms for Schema-Mapping Discovery from Data Examples.",
