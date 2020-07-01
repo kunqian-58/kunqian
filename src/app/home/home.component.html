@@ -92,7 +92,12 @@
                   <ng-template ngbTabContent>
                       <div class="w3-padding-large w3-light-grey w3-small" >
                         <div class="w3-padding-small" *ngFor="let paper of mypapers">
-                            <span><b>{{paper.title}}</b></span><br>
+                            <span>
+                                <b *ngIf="paper.pending_publishing" class="w3-text-red w3-meidum">
+                                    (To appear)
+                                </b>
+                                <b>{{paper.title}}</b>
+                            </span><br>
                             <div>
                                 <span *ngFor="let author of paper.authors; last as isLast">
                                     <span *ngIf="!isLast && author==='Kun Qian'"><b class="w3-text-indigo">{{author}}</b>, </span>
@@ -127,7 +132,11 @@
                     <ng-template ngbTabContent>
                         <div class="w3-padding-large w3-light-grey w3-small" >
                             <div class="w3-padding-small" *ngFor="let paper of regular_papers">
-                                <span><b>{{paper.title}}</b></span><br>
+                                <span>
+                                    <b *ngIf="paper.pending_publishing" class="w3-text-red w3-meidum">
+                                        (To appear)
+                                    </b>
+                                    <b>{{paper.title}}</b></span><br>
                                 <div>
                                     <span *ngFor="let author of paper.authors; last as isLast">
                                         <span *ngIf="!isLast && author==='Kun Qian'"><b class="w3-text-indigo">{{author}}</b>, </span>
@@ -161,7 +170,11 @@
                     <ng-template ngbTabContent>
                         <div class="w3-padding-large w3-light-grey w3-small" >
                             <div class="w3-padding-small" *ngFor="let paper of demo_papers">
-                                <span><b>{{paper.title}}</b></span><br>
+                                <span>
+                                    <b *ngIf="paper.pending_publishing" class="w3-text-red w3-meidum">
+                                        (To appear)
+                                    </b>
+                                    <b>{{paper.title}}</b></span><br>
                                 <div>
                                     <span *ngFor="let author of paper.authors; last as isLast">
                                         <span *ngIf="!isLast && author==='Kun Qian'"><b class="w3-text-indigo">{{author}}</b>, </span>
@@ -194,7 +207,11 @@
                 <ng-template ngbTabContent>
                     <div class="w3-padding-large w3-light-grey w3-small" >
                         <div class="w3-padding-small" *ngFor="let paper of tutorials">
-                            <span><b>{{paper.title}}</b></span><br>
+                            <span>
+                                <b *ngIf="paper.pending_publishing" class="w3-text-red w3-meidum">
+                                    (To appear)
+                                </b>
+                                <b>{{paper.title}}</b></span><br>
                             <div>
                                 <span *ngFor="let author of paper.authors; last as isLast">
                                     <span *ngIf="!isLast && author==='Kun Qian'"><b class="w3-text-indigo">{{author}}</b>, </span>
