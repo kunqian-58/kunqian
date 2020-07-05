@@ -115,8 +115,9 @@
                                     href="{{paper.video_url}}" target="_blank"   style="margin-right:0.5em; padding:2px 4px; text-decoration:none">video<i class=""></i></a>
                                 <a *ngIf="paper.bibtex!=null" class="w3-tiny w3-text-white w3-round w3-hover-pink"
                                     (click)="showbibtex(paper)"  style="margin-right:0.5em; background-color:#5d88ab; padding:2px 4px; cursor:pointer; text-decoration:none">bibtex<i class=""></i></a>
-                                <a *ngIf="paper.bibtex_file!=null" class="w3-tiny w3-text-white w3-round w3-hover-pink"
-                                    href="assets/bibtex/{{paper.bibtex_file}}" target="_blank" style="margin-right:0.5em; background-color:#5d88ab; padding:2px 4px; cursor:pointer; text-decoration:none">bibtex<i class=""></i></a>
+                                <span *ngIf="paper.bibtex_file!=null" class="w3-tiny w3-text-white w3-round w3-hover-pink"
+                                    style="margin-right:0.5em; background-color:#5d88ab; padding:2px 4px; cursor:pointer; text-decoration:none"
+                                    (click)="viewBib(paper.bibtex_file)">bibtex<i class=""></i></span>                                    
                             </div>
                             <!-- <link href="txtstyle.css" rel="stylesheet" type="text/css" /> -->
 
@@ -154,8 +155,9 @@
                                         href="{{paper.video_url}}" target="_blank"   style="margin-right:0.5em; padding:2px 4px; text-decoration:none">video<i class=""></i></a>
                                     <a *ngIf="paper.bibtex!=null" class="w3-tiny w3-text-white w3-round w3-hover-pink"
                                         (click)="showbibtex(paper)"  style="margin-right:0.5em; background-color:#5d88ab; padding:2px 4px; cursor:pointer; text-decoration:none">bibtex<i class=""></i></a>
-                                        <a *ngIf="paper.bibtex_file!=null" class="w3-tiny w3-text-white w3-round w3-hover-pink"
-                                        href="assets/bibtex/{{paper.bibtex_file}}" target="_blank" style="margin-right:0.5em; background-color:#5d88ab; padding:2px 4px; cursor:pointer; text-decoration:none">bibtex<i class=""></i></a>
+                                    <span *ngIf="paper.bibtex_file!=null" class="w3-tiny w3-text-white w3-round w3-hover-pink"
+                                        style="margin-right:0.5em; background-color:#5d88ab; padding:2px 4px; cursor:pointer; text-decoration:none"
+                                        (click)="viewBib(paper.bibtex_file)">bibtex<i class=""></i></span>            
                                 </div>
                             
                                 <div class="w3-margin-top"></div>
@@ -192,8 +194,9 @@
                                         href="{{paper.video_url}}" target="_blank"   style="margin-right:0.5em; padding:2px 4px; text-decoration:none">video<i class=""></i></a>
                                     <a *ngIf="paper.bibtex!=null" class="w3-tiny w3-text-white w3-round w3-hover-pink"
                                         (click)="showbibtex(paper)"  style="margin-right:0.5em; background-color:#5d88ab; padding:2px 4px; cursor:pointer; text-decoration:none">bibtex<i class=""></i></a>
-                                        <a *ngIf="paper.bibtex_file!=null" class="w3-tiny w3-text-white w3-round w3-hover-pink"
-                                        href="assets/bibtex/{{paper.bibtex_file}}" target="_blank" style="margin-right:0.5em; background-color:#5d88ab; padding:2px 4px; cursor:pointer; text-decoration:none">bibtex<i class=""></i></a>
+                                    <span *ngIf="paper.bibtex_file!=null" class="w3-tiny w3-text-white w3-round w3-hover-pink"
+                                        style="margin-right:0.5em; background-color:#5d88ab; padding:2px 4px; cursor:pointer; text-decoration:none"
+                                        (click)="viewBib(paper.bibtex_file)">bibtex<i class=""></i></span>            
                                 </div>
                             
                                 <div class="w3-margin-top"></div>
@@ -229,8 +232,9 @@
                                     href="{{paper.video_url}}" target="_blank"   style="margin-right:0.5em; padding:2px 4px; text-decoration:none">video<i class=""></i></a>
                                 <a *ngIf="paper.bibtex!=null" class="w3-tiny w3-text-white w3-round w3-hover-pink"
                                     (click)="showbibtex(paper)"  style="margin-right:0.5em; background-color:#5d88ab; padding:2px 4px; cursor:pointer; text-decoration:none">bibtex<i class=""></i></a>
-                                <a *ngIf="paper.bibtex_file!=null" class="w3-tiny w3-text-white w3-round w3-hover-pink"
-                                href="assets/bibtex/{{paper.bibtex_file}}" target="_blank" style="margin-right:0.5em; background-color:#5d88ab; padding:2px 4px; cursor:pointer; text-decoration:none">bibtex<i class=""></i></a>
+                                <span *ngIf="paper.bibtex_file!=null" class="w3-tiny w3-text-white w3-round w3-hover-pink"
+                                    style="margin-right:0.5em; background-color:#5d88ab; padding:2px 4px; cursor:pointer; text-decoration:none"
+                                    (click)="viewBib(paper.bibtex_file)">bibtex<i class=""></i></span>            
                             </div>
                         
                             <div class="w3-margin-top"></div>
