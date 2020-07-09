@@ -10,13 +10,15 @@ import {MatDividerModule} from '@angular/material/divider';
 import { HttpClientModule } from '@angular/common/http';
 import {MatDialogModule} from '@angular/material/dialog';
 import { BibdialogComponent } from './bibdialog/bibdialog.component';
+import { AclComponent } from './acl/acl.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    BibdialogComponent
+    BibdialogComponent,
+    AclComponent
   ],
   imports: [
     BrowserModule,

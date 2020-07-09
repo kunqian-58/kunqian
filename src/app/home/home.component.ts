@@ -14,6 +14,9 @@ export interface bib_data
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+
+  utc
+  
   selected_bib;
   getbibfile(filename)
   {
@@ -65,6 +68,10 @@ export class HomeComponent implements OnInit {
 
   constructor(private http: HttpClient, public dialog: MatDialog) {
     console.log(this.mypapers);
+    // var n = d.getUTCDate();
+      setInterval(() => {
+        this.utc = new Date();
+    }, 1000);
    }
 
   ngOnInit() {
