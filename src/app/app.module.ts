@@ -10,7 +10,7 @@ import {MatDividerModule} from '@angular/material/divider';
 import { HttpClientModule } from '@angular/common/http';
 import {MatDialogModule} from '@angular/material/dialog';
 import { BibdialogComponent } from './bibdialog/bibdialog.component';
-import { AclComponent } from './acl/acl.component';
+
 
 
 @NgModule({
@@ -18,7 +18,6 @@ import { AclComponent } from './acl/acl.component';
     AppComponent,
     HomeComponent,
     BibdialogComponent,
-    AclComponent
   ],
   imports: [
     BrowserModule,

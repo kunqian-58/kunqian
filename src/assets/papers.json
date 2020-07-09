@@ -177,7 +177,7 @@
      "bibtex_file": "aaai2019.bib"
     },
     {
-    "title": "Exploiting structure in representation of named entities using active learning",
+    "title": "Exploiting Structure in Representation of Named Entities using Active Learning",
     "venue_short": "COLING 2018",
     "venue_full": "27th International Conference on Computational Linguistics",
     "authors": [
@@ -190,9 +190,8 @@
     ],
     "year": "2018",
     "pages": "687--699",
-    "type": "full",
+    "type": "regular",
     "pdf_url": "https://www.aclweb.org/anthology/C18-1058.pdf",
-    "websiste": "na",
     "bibtex_file": "coling2018.bib",
     "abstract": "Fundamental to several knowledge-centric applications is the need to identify named entities from their textual mentions. However, entities lack a unique representation and their mentions can differ greatly. These variations arise in complex ways that cannot be captured using textual similarity metrics. However, entities have underlying structures, typically shared by entities of the same entity type, that can help reason over their name variations. Discovering, learning and manipulating these structures typically requires high manual effort in the form of large amounts of labeled training data and handwritten transformation programs. In this work, we propose an active-learning based framework that drastically reduces the labeled data required to learn the structures of entities. We show that programs for mapping entity mentions to their structures can be automatically generated using human-comprehensible labels. Our experiments show that our framework consistently outperforms both handwritten programs and supervised learning models. We also demonstrate the utility of our framework in relation extraction and entity resolution tasks."
     },
