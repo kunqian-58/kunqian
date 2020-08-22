@@ -18,7 +18,7 @@
         <a href="#publications" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-graduation-cap fa-fw w3-margin-right"></i>RESEARCH & PUBLICATIONS</a>
         <a href="#experience" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-industry fa-fw w3-margin-right"></i>EXPERIENCE</a>
         <a href="#education" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-university fa-fw w3-margin-right"></i>EDUCATION</a> 
-        <a href="#service" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fas fa-concierge-bell w3-margin-right"></i>PROFESSIONAL SERVICES</a>
+        <a href="#service" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fas fa-concierge-bell w3-margin-right"></i>SERVICES</a>
         <a href="#skills" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fas fa-laptop-code w3-margin-right"></i>SKILLS</a>
       </div>
       <div class="w3-panel w3-large">
@@ -63,29 +63,33 @@
 
         <div class="w3-margin-top w3-container w3-padding-large" id="publications">
             <h4><b>Research & Publications</b></h4>
-
             <div class="w3-margin-top">
                 <div class="w3-margin-top w3-margin-bottom">
-                    <a class="w3-padding-small w3-small w3-round w3-border w3-border-black  w3-text-black w3-hover-blue w3-margin-right"
+                    <a class="w3-padding-small w3-small w3-round w3-light-blue w3-border-black  w3-text-black w3-hover-blue w3-margin-right"
                         href="https://dblp.uni-trier.de/pers/hd/q/Qian_0002:Kun" target="_blank" style="text-decoration:none">
-                        <i class="fa fa-external-link"></i> DBLP Profile <i class="ai ai-dblp w3-medium"></i></a>
+                        <i class="fa fa-external-link"></i> DBLP Page <i class="ai ai-dblp w3-medium"></i></a>
 
-                    <a class="w3-padding-small w3-small w3-round w3-border w3-border-black  w3-text-black w3-hover-blue w3-margin-right"
+                    <a class="w3-padding-small w3-small w3-round w3-light-blue w3-border-black  w3-text-black w3-hover-blue w3-margin-right"
                     href="https://scholar.google.com/citations?hl=en&user=T-9ljuEAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" style="text-decoration:none">
-                    <i class="fa fa-external-link"></i> Google Scholar Profile <i class="ai ai-google-scholar w3-medium"></i></a>
+                    <i class="fa fa-external-link"></i> GoogleScholar Page<i class="ai ai-google-scholar w3-medium"></i></a>
                 </div>
-                <p style="font-style: italic;"><b>Research Interests</b>: human-in-the-loop machine learning, active learning, deep learning, data integration and data exchange.</p>
-                <p> My research interests have been focused on data exchange and information integration to, more recently, human-in-the-loop machine learning. 
-                    I am interested in building intelligent human-in-the-loop machine learning (particuarly, deep learning) systems, with intuitive UI, for entity-centric AI tasks. 
+                <p style="font-style: italic;"><b>Research Interests</b>: human-in-the-loop machine learning, active learning, semi-supervised learning, deep learning, explainable AI, data integration and data exchange.</p>
+                <p> My research interests have been focused on data exchange and information integration to, more recently, deep learning from small data. 
+                    I have built several intelligent human-in-the-loop machine learning (particuarly, deep learning) systems, with intuitive UI, for entity-centric AI tasks. 
                     Representative systems include 
                     <b class="w3-text-indigo">LUSTRE</b> (ICDE 2018 demo track),
                     <b class="w3-text-indigo">SystemER</b> (VLDB 2019 demo track),
                     and <b class="w3-text-indigo">PARTNER</b> (AAAI 2020 demo track).
-                    Moreover, one of my latest projects is understanding the explainability for NLP tasks, and we are giving a tutorial at AACL 2020 on this topic.
                 </p>
+                <p><b><i>What I am focusing right now:</i></b> I am recently interested in deep semi-supervised learning techniques that can learn robust deep neural networks (especially transformer-based models)
+                    from small labeled data. I am exploring using adversarial training techniques including gradient reversal and virtual adversarial training to improve
+                    training deep neural networks. 
+                </p>               
                 <p>My publications (since 2015) are listed below:</p>
             </div>
+
             
+
             <div class="w3-margin-top"></div>
             <ngb-tabset class="w3-margin-top" [destroyOnHide]="false">
                 <ngb-tab title="All papers">
@@ -302,7 +306,7 @@
                     <td><b>Conference PC:</b></td>
                     <td class="w3-margin-left w3-margin-right">&nbsp;&nbsp;</td>
                     <td>
-                        ACL 2020, IJCAI 2020, AAAI 2020, ICDE 2020 (industry track)
+                        ACL 2020, IJCAI 2020, AAAI (2021, 2020), ICDE 2020 (industry track)
                     </td>
                 </tr>
                 <tr>
