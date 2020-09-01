@@ -1,20 +1,5 @@
 [
     {
-    "title": "An Intuitive User Interface for Human-in-the-loop Entity Name Parsing and Entity Variant Generation.",
-    "venue_short": "DaSH@KDD 2020",
-    "venue_full": "1st Workshop on Data Science with Human in the Loop",
-    "authors": [
-        "Kun Qian",
-        "Lucian Popa",
-        "Yunyao Li"
-    ],
-    "year": 2020,
-    "pages": "??-??",
-    "type": "regular",
-    "pdf_url": "na",
-    "video_url": "https://drive.google.com/file/d/1-NT7dHEiMxaAjvIIbr1lll6XL-BelcCe/view"
-    },
-    {
      "title": "Explainability for Natural Language Processing.",
      "venue_short": "AACL-IJCNLP 2020",
      "venue_full": "The 1st Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics",
@@ -32,6 +17,21 @@
      "pdf_url": "na",
      "video_url": "na",
      "pending_publishing": true
+    },    
+    {
+        "title": "An Intuitive User Interface for Human-in-the-loop Entity Name Parsing and Entity Variant Generation.",
+        "venue_short": "DaSH@KDD 2020",
+        "venue_full": "1st Workshop on Data Science with Human in the Loop",
+        "authors": [
+            "Kun Qian",
+            "Lucian Popa",
+            "Yunyao Li"
+        ],
+        "year": 2020,
+        "pages": "??-??",
+        "type": "regular",
+        "pdf_url": "https://drive.google.com/file/d/1-NT7dHEiMxaAjvIIbr1lll6XL-BelcCe/view",
+        "video_url": "na"
     },
     {
      "title": "Answering Complex Questions by Combining Information from Curatedand Extracted Knowledge Bases.",
