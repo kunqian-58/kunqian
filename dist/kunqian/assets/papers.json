@@ -1,5 +1,23 @@
 [
     {
+        "title": "Ontology Mediated Information Extraction with MASTRO SYSTEM-T",
+        "venue_short": "ISWC 2020",
+        "venue_full": "The 19th International Semantic Web Conference",
+        "authors": [
+         "Domenico Lembo",
+         "Yunyao Li",
+         "Lucian Popa",
+         "Kun Qian",
+         "Federico Scafoglieri"
+        ],
+        "year": 2020,
+        "pages": "??-??",
+        "type": "demo",
+        "pdf_url": "na",
+        "video_url": "na",
+        "pending_publishing": true
+       },    
+    {
      "title": "Explainability for Natural Language Processing.",
      "venue_short": "AACL-IJCNLP 2020",
      "venue_full": "The 1st Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics",
