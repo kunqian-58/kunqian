@@ -1,5 +1,24 @@
 [
     {
+        "title": "A Survey of the State of Explainable AI for Natural Language Processing",
+        "venue_short": "AACL-IJCNLP 2020",
+        "venue_full": "The 1st Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics",
+        "authors": [
+         "Marina Danilevsky",
+         "Kun Qian",
+         "Ranit Aharonov",
+         "Yannis Katasis",
+         "Ban Kawas",
+         "Prithviraj Sen"
+        ],
+        "year": 2020,
+        "pages": "??-??",
+        "type": "regular",
+        "pdf_url": "na",
+        "video_url": "",
+        "pending_publishing": true
+    }, 
+    {
         "title": "Ontology Mediated Information Extraction with MASTRO SYSTEM-T",
         "venue_short": "ISWC 2020",
         "venue_full": "The 19th International Semantic Web Conference",
@@ -14,7 +33,7 @@
         "pages": "??-??",
         "type": "demo",
         "pdf_url": "na",
-        "video_url": "na",
+        "video_url": "",
         "pending_publishing": true
        },    
     {
