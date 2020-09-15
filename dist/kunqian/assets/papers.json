@@ -1,5 +1,22 @@
 [
     {
+        "title": "Learning Structured Representations of Entity Names using Active Learning and Weak Supervision",
+        "venue_short": "EMNLP 2020",
+        "venue_full": "The 2020 Conference on Empirical Methods in Natural Language Processing",
+        "authors": [
+         "Kun Qian",
+         "Poornima Chozhiyath Raman",
+         "Lucian Popa",
+         "Yunyao Li"
+        ],
+        "year": 2020,
+        "pages": "??-??",
+        "type": "regular",
+        "pdf_url": "na",
+        "video_url": "na",
+        "pending_publishing": true
+    },
+    {
         "title": "A Survey of the State of Explainable AI for Natural Language Processing",
         "venue_short": "AACL-IJCNLP 2020",
         "venue_full": "The 1st Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics",
