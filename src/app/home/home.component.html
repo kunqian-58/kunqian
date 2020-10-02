@@ -98,7 +98,7 @@
                         <div class="w3-padding-small" *ngFor="let paper of mypapers">
                             <span>
                                 <b *ngIf="paper.pending_publishing" class="w3-text-red w3-meidum">
-                                    (To appear)
+                                    (New)
                                 </b>
                                 <b>{{paper.title}}</b>
                                 <span class="w3-tiny w3-text-dark-grey">&nbsp;({{paper.type}})</span>
@@ -123,6 +123,9 @@
                                 <span *ngIf="paper.bibtex_file!=null" class="w3-tiny w3-text-white w3-round w3-hover-pink"
                                     style="margin-right:0.5em; background-color:#5d88ab; padding:2px 4px; cursor:pointer; text-decoration:none"
                                     (click)="viewBib(paper.bibtex_file)">bibtex<i class=""></i></span>                                    
+                            </div>
+                            <div>
+                                <span *ngIf="paper.acceptance_rate != undefined" class="w3-margin-right">(Acceptance rate: {{paper.acceptance_rate}})</span>
                             </div>
                             <!-- <link href="txtstyle.css" rel="stylesheet" type="text/css" /> -->
 
