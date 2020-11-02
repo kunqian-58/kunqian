@@ -10,6 +10,7 @@ import {MatDividerModule} from '@angular/material/divider';
 import { HttpClientModule } from '@angular/common/http';
 import {MatDialogModule} from '@angular/material/dialog';
 import { BibdialogComponent } from './bibdialog/bibdialog.component';
+import { AlanComponent } from './alan/alan.component';
 
 
 
@@ -18,6 +19,7 @@ import { BibdialogComponent } from './bibdialog/bibdialog.component';
     AppComponent,
     HomeComponent,
     BibdialogComponent,
+    AlanComponent,
   ],
   imports: [
     BrowserModule,
