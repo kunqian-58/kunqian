@@ -12,7 +12,7 @@
         "year": 2020,
         "pages": "??-??",
         "type": "short",
-        "pdf_url": "na",
+        "pdf_url": "https://arxiv.org/abs/2011.00105",
         "video_url": "na",
         "acceptance_rate": "16.7% - short paper",
         "pending_publishing": true
@@ -52,7 +52,9 @@
         "type": "demo",
         "pdf_url": "na",
         "video_url": "na",
-        "pending_publishing": true
+        "pending_publishing": true,
+        "award": "Best Post/Demo Award",
+        "award_url": "https://twitter.com/iswc_conf/status/1324766153366011908"
        },    
     {
      "title": "Explainability for Natural Language Processing.",
