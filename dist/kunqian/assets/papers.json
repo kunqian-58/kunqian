@@ -12,9 +12,10 @@
         "year": 2020,
         "pages": "??-??",
         "type": "short",
-        "pdf_url": "na",
+        "pdf_url": "https://www.aclweb.org/anthology/2020.emnlp-main.517/",
         "video_url": "na",
         "acceptance_rate": "16.7% - short paper",
+        "bibtex_file": "emnlp2020.bib",
         "pending_publishing": true
     },
     {
@@ -50,9 +51,11 @@
         "year": 2020,
         "pages": "??-??",
         "type": "demo",
-        "pdf_url": "na",
+        "pdf_url": "http://ceur-ws.org/Vol-2721/paper564.pdf",
         "video_url": "na",
-        "pending_publishing": true
+        "award": "Best Post/Demo",
+        "bibtex_file": "iswc2020.bib",
+        "award_url": "https://twitter.com/iswc_conf/status/1324766153366011908"
        },    
     {
      "title": "Explainability for Natural Language Processing.",
