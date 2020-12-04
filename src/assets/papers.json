@@ -15,8 +15,7 @@
         "pdf_url": "https://www.aclweb.org/anthology/2020.emnlp-main.517/",
         "video_url": "na",
         "acceptance_rate": "16.7% - short paper",
-        "bibtex_file": "emnlp2020.bib",
-        "pending_publishing": true
+        "bibtex_file": "emnlp2020.bib"
     },
     {
         "title": "A Survey of the State of Explainable AI for Natural Language Processing",
@@ -34,8 +33,7 @@
         "pages": "??-??",
         "type": "regular",
         "pdf_url": "https://arxiv.org/abs/2010.00711",
-        "video_url": "na",
-        "pending_publishing": true
+        "video_url": "na"
     }, 
     {
         "title": "Ontology Mediated Information Extraction with MASTRO SYSTEM-T",
@@ -72,9 +70,8 @@
      "year": 2020,
      "pages": "??-??",
      "type": "tutorial",
-     "pdf_url": "na",
-     "video_url": "na",
-     "pending_publishing": true
+     "pdf_url": "https://xainlp2020.github.io/xainlp/",
+     "video_url": "na"
     },    
     {
         "title": "An Intuitive User Interface for Human-in-the-loop Entity Name Parsing and Entity Variant Generation.",
