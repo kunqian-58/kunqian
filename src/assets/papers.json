@@ -1,5 +1,26 @@
 [
     {
+        "title": "XNLP: A Living Survey for XAI Research in Natural Language Processing",
+        "venue_short": "IUI 2021",
+        "venue_full": "IUI 2021: Annual Conference on Intelligent User Interfaces",
+        "authors": [
+         "Kun Qian",
+         "Marina Danilevsky",
+         "Yannis Katsis",
+         "Ban Kawas",
+         "Erick Oduor",
+         "Lucian Popa",
+         "Yunyao Li"
+        ],
+        "year": 2021,
+        "pages": "??-??",
+        "type": "demo",
+        "pdf_url": "na",
+        "pending_publishing":"true",
+        "video_url": "na",
+        "link": "https://xainlp2020.github.io/xainlp/"
+    },
+    {
         "title": "Learning Structured Representations of Entity Names using Active Learning and Weak Supervision",
         "venue_short": "EMNLP 2020",
         "venue_full": "The 2020 Conference on Empirical Methods in Natural Language Processing",
@@ -30,9 +51,10 @@
          "Prithviraj Sen"
         ],
         "year": 2020,
-        "pages": "??-??",
+        "pages": "447-459",
         "type": "regular",
-        "pdf_url": "https://arxiv.org/abs/2010.00711",
+        "pdf_url": "https://www.aclweb.org/anthology/2020.aacl-main.46/",
+        "bibtex_file": "aacl2020_survey.bib",
         "video_url": "na"
     }, 
     {
