@@ -10,7 +10,7 @@
         <h4><b>Kun Qian</b></h4>
         <div style="margin-top:3px"><span class="w3-text-grey"><i class='fa fa-briefcase'></i> Computer Science Researcher</span></div>
         <div style="margin-top:3px"><span class="w3-text-grey"><i class='fa fa-envelope-o'></i> kunqian.usa [AT] gmail.com</span></div>
-        <div style="margin-top:3px"><span class="w3-text-grey"><i class='fa fa-globe'></i> San Jose, California, USA</span></div>
+        <div style="margin-top:3px"><span class="w3-text-grey"><i class='fa fa-globe'></i> San Jose, CA -> Seattle, WA, USA</span></div>
         
       </div>
       <div class="w3-margin-top w3-bar-block">
@@ -43,12 +43,12 @@
         <div class="w3-container w3-padding-large" id="about">
             <div style="margin-top:10px"></div>
             <h4><b>Welcome to Kun's Personal Website</b></h4>
-            <p>My name is Kun Qian (钱坤 in Chinese). I am currently a Research Staff Member at IBM Research. 
+            <p>My name is Kun Qian ("钱坤" in Chinese). I am currently a Research Staff Member at IBM Research. 
                 My research is at the intersection of data integration, artificial intelligence, and NLP. 
                 The goal of my work at IBM is to build intelligent human-in-the-loop machine learning systems 
                 for entity understanding and knowledge curation. 
                 Before joining IBM Research, 
-                I obtained my PhD in Computer Science under the supervision of three excellent advisers: 
+                I obtained my PhD in Computer Science under the supervision of  
                 <a href="https://www.baldertencate.com/about" target="_blank">Balder ten Cate</a>, 
                 <a href="https://users.soe.ucsc.edu/~kolaitis/" target="_blank">Phokion Kolaitis</a>, and 
                 <a href="https://megagon.ai/team/wang-chiew-tan/" target="_blank">Wang-Chiew Tan</a>
@@ -76,8 +76,8 @@
                 </div>
                 <p style="font-style: italic;"><b>Research Interests</b>: human-in-the-loop machine learning, active learning, semi-supervised learning, deep learning, explainable AI, data integration and data exchange.</p>
                 <p> My research interests have been focused on data exchange and integration to, more recently, machine learning with small data. 
-                    I have built several intelligent human-in-the-loop machine learning (particuarly, deep learning) systems, with intuitive UI, for entity-centric AI tasks. 
-                    Some representative systems include 
+                    I have designed and developed several intelligent human-in-the-loop machine learning systems for entity-centric AI tasks. 
+                    Representative systems include 
                     <b class="w3-text-indigo">LUSTRE</b> (ICDE 2018 demo, COLING 2018),
                     <b class="w3-text-indigo">SystemER</b> (VLDB 2019 demo, CIKM 2017),
                     and <b class="w3-text-indigo">PARTNER</b> (AAAI 2020 demo, EMNLP 2020).
@@ -116,6 +116,8 @@
                                     href="{{paper.pdf_url}}"   target="_blank" style="margin-right:0.5em; padding:2px 4px; text-decoration:none">pdf<i class=""></i></a>
                                 <a *ngIf="paper.video_url!=undefined && paper.video_url!='na'" class="w3-tiny w3-round w3-indigo w3-hover-indigo"
                                     href="{{paper.video_url}}" target="_blank"   style="margin-right:0.5em; padding:2px 4px; text-decoration:none">video<i class=""></i></a>
+                                <a *ngIf="paper.link!=undefined && paper.link!='na'" class="w3-tiny w3-round w3-indigo w3-hover-indigo"
+                                    href="{{paper.link}}" target="_blank"   style="margin-right:0.5em; padding:2px 4px; text-decoration:none">link<i class=""></i></a>
                                 <a *ngIf="paper.bibtex!=null" class="w3-tiny w3-text-white w3-round w3-hover-pink"
                                     (click)="showbibtex(paper)"  style="margin-right:0.5em; background-color:#5d88ab; padding:2px 4px; cursor:pointer; text-decoration:none">bibtex<i class=""></i></a>
                                 <span *ngIf="paper.bibtex_file!=null" class="w3-tiny w3-text-white w3-round w3-hover-pink"
@@ -270,7 +272,7 @@
             <h4><b>Award(s)</b></h4>
             <table>
                 <tr>
-                    <td><b>Best Post/Demo Award</b> @ The 19International Semantic Web Conference (ISWC 2020)</td>
+                    <td><b>Best Post/Demo Award</b> @ The 19th International Semantic Web Conference (ISWC 2020)</td>
                 </tr>
             </table>
         </div>
@@ -334,7 +336,14 @@
                     <td><b>Conference PC:</b></td>
                     <td class="w3-margin-left w3-margin-right">&nbsp;&nbsp;</td>
                     <td>
-                        NAACL 2021, ACL 2020, IJCAI 2020, AAAI (2021, 2020), ICDE 2020 (industry track)
+                        IUI 2021 (demo), NAACL 2021
+                    </td>
+                </tr>
+                <tr>
+                    <td><b></b></td>
+                    <td class="w3-margin-left w3-margin-right">&nbsp;&nbsp;</td>
+                    <td>
+                        ACL 2020, IJCAI 2020, AAAI (2021, 2020), ICDE 2020 (industry track)
                     </td>
                 </tr>
                 <tr>
