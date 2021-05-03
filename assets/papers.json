@@ -1,5 +1,25 @@
 [
     {
+        "title": "Design Space for Explainable AI]{Who needs to know what, when?: Broadening the Explainable AI (XAI) Design Space by Looking at Explanations Across the AI Lifecycle ",
+        "venue_short": "DIS 2021",
+        "venue_full": "2021 ACM Designing Interactive Systems (DIS) conference",
+        "authors": [
+            "Shipi Dhanorkar",
+            "Christine T Wolf",
+            "Kun Qian",
+            "Anbang Xu",
+            "Lucian Popa",            
+            "Yunyao Li"
+            ],
+        "year": 2021,
+        "pages": "??-??",
+        "type": "demo",
+        "pdf_url": "na",
+        "pending_publishing":"true",
+        "video_url": "na",
+        "link": ""
+    },
+    {
         "title": "XNLP: A Living Survey for XAI Research in Natural Language Processing",
         "venue_short": "IUI 2021",
         "venue_full": "IUI 2021: Annual Conference on Intelligent User Interfaces",
@@ -13,12 +33,12 @@
          "Yunyao Li"
         ],
         "year": 2021,
-        "pages": "??-??",
+        "pages": "78-80",
         "type": "demo",
-        "pdf_url": "na",
-        "pending_publishing":"true",
+        "pdf_url": "https://dl.acm.org/doi/abs/10.1145/3397482.3450728",
         "video_url": "na",
-        "link": "https://xainlp2020.github.io/xainlp/"
+        "link": "https://xainlp2020.github.io/xainlp/",
+        "bibtex_file": "xnlp.bib"
     },
     {
         "title": "Learning Structured Representations of Entity Names using Active Learning and Weak Supervision",
