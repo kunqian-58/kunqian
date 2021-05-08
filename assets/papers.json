@@ -13,11 +13,10 @@
             ],
         "year": 2021,
         "pages": "??-??",
-        "type": "demo",
+        "type": "regular",
         "pdf_url": "na",
         "pending_publishing":"true",
-        "video_url": "na",
-        "link": ""
+        "video_url": "na"
     },
     {
         "title": "XNLP: A Living Survey for XAI Research in Natural Language Processing",
