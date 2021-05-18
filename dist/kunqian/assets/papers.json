@@ -1,24 +1,5 @@
 [
     {
-        "title": "Explainability for Natural Language Processing.",
-        "venue_short": "SIGKDD 2021",
-        "venue_full": "The 28st Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics",
-        "authors": [
-         "Shipi Dhanorkar",
-         "Marina Danilevsky",
-         "Yunyao Li",
-         "Lucian Popa",
-         "Kun Qian",
-         "Anbang Xu"
-        ],
-        "year": 2021,
-        "pages": "??-??",
-        "type": "tutorial",
-        "video_url": "na",
-        "pdf_url":"na",
-        "pending_publishing":"true"
-    },    
-    {
         "title": "Who needs to know what, when?: Broadening the Explainable AI (XAI) Design Space by Looking at Explanations Across the AI Lifecycle ",
         "venue_short": "DIS 2021",
         "venue_full": "2021 ACM Designing Interactive Systems (DIS) conference",
@@ -131,7 +112,7 @@
      "pages": "??-??",
      "type": "tutorial",
      "pdf_url": "https://xainlp2020.github.io/xainlp/",
-     "video_url": "https://www.youtube.com/watch?v=3tnrGe_JA0s"
+     "video_url": "na"
     },    
     {
         "title": "An Intuitive User Interface for Human-in-the-loop Entity Name Parsing and Entity Variant Generation.",
