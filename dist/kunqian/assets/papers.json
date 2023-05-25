@@ -1,5 +1,25 @@
 [
     {
+        "title": "Improving Human Annotation Effectiveness for Fact Collection by Identifying the Most Relevant Answers.",
+        "venue_short": "DaSH@EMNLP 2022",
+        "venue_full": "Proceedings of the Fourth Workshop on Data Science with Human-in-the-Loop (Language Advances)",
+        "authors": [
+         "Pranav Kamath",
+         "Yiwen Sun",
+          "Thomas Semere",
+          "Adam Green",
+          "Scott Manle",
+          "Xiaoguang Qi",
+          "Kun Qian",
+          "Yunyao Li"
+        ],
+        "year": 2022,
+        "pages": "74-80",
+        "type": "regular",
+        "video_url": "na",
+        "pdf_url":"https://aclanthology.org/2022.dash-1.10.pdf",
+        "link":"na"
+    },{
         "title": "Explainability for Natural Language Processing.",
         "venue_short": "SIGKDD 2021",
         "venue_full": "The 28st Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics",
@@ -16,9 +36,8 @@
         "type": "tutorial",
         "video_url": "na",
         "pdf_url":"na",
-        "link":"https://xainlp.github.io/kddtutorial/",
-        "pending_publishing":"true"
-    },    
+        "link":"https://xainlp.github.io/kddtutorial/"
+    },
     {
         "title": "Who needs to know what, when?: Broadening the Explainable AI (XAI) Design Space by Looking at Explanations Across the AI Lifecycle ",
         "venue_short": "DIS 2021",
@@ -35,7 +54,6 @@
         "pages": "??-??",
         "type": "regular",
         "pdf_url": "na",
-        "pending_publishing":"true",
         "video_url": "na"
     },
     {
