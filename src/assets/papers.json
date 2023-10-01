@@ -1,5 +1,27 @@
 [
     {
+        "title": "FLEEK: Factual Error Detection and Correction with Evidence Retrieved from External Knowledge",
+        "venue_short": "EMNLP 2023",
+        "venue_full": "The 2023 Conference on Empirical Methods in Natural Language Processing",
+        "authors": [
+          "Farima Fatahi Bayat",
+         "Kun Qian",
+         "Ben Han",
+         "Yisi Sang",
+         "Anton Belyi",
+          "Samira Khorhshidi",
+          "Fei Wu",
+          "Ihab Ilyas",
+          "Yunyao Li"
+        ],
+        "pending_publishing":true,
+        "year": 2023,
+        "pages": "??-??",
+        "type": "demo",
+        "video_url": "na",
+        "acceptance_rate": ""
+    },
+  {
         "title": "Improving Human Annotation Effectiveness for Fact Collection by Identifying the Most Relevant Answers.",
         "venue_short": "DaSH@EMNLP 2022",
         "venue_full": "Proceedings of the Fourth Workshop on Data Science with Human-in-the-Loop (Language Advances)",

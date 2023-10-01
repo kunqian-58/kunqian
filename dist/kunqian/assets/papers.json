@@ -18,7 +18,7 @@
         "type": "regular",
         "video_url": "na",
         "pdf_url":"https://aclanthology.org/2022.dash-1.10.pdf",
-        "link":"na"
+        "bibtex_file":"dash2020.bib"
     },{
         "title": "Explainability for Natural Language Processing.",
         "venue_short": "SIGKDD 2021",
