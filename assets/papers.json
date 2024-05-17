@@ -21,6 +21,20 @@
         "pdf_url": "https://openreview.net/pdf?id=wL4yc7pUmG"
     },
     {
+        "title": "Evaluation and Continual Improvement for an Enterprise AI Assistant",
+        "venue_short": "DaSH@NAACL 2024",
+        "venue_full": "Workshop on Data Science with Human in the Loop",
+        "authors": [
+          "Akash V. Maharaj","Kun Qian", "Uttaran Bhattacharya", "Sally Fang", "Horia Galatanu",
+          "Manas Garg", "Rachel Hanessian", "Nishant Kapoor", "Ken Russell", "Shivakumar Vaithyanathan","Yunyao Li"
+        ],
+        "pending_publishing":true,
+        "year": 2024,
+        "pages": "??-??",
+        "type": "short",
+        "video_url": "na"
+    },
+    {
         "title": "APE: Active Learning-based Tooling for Finding Informative Few-shot Examples for LLM-based Entity Matching",
         "venue_short": "DaSH@NAACL 2024",
         "venue_full": "Workshop on Data Science with Human in the Loop",
