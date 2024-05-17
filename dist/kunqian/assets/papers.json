@@ -1,5 +1,41 @@
 [
     {
+        "title": "Time Sensitive Knowledge Editing through Efficient Finetuning",
+        "venue_short": "ACL 2024",
+        "venue_full": "The 62nd Annual Meeting of the Association for Computational Linguistics",
+        "authors": [
+          "Xiou Ge",
+         "Ali Mousavi",
+         "Edouard Grave",
+         "Armand Joulin",
+         "Kun Qian",
+          "Ben Han",
+          "Mostafa Arefiyan",
+          "Yunyao Li"
+        ],
+        "pending_publishing":true,
+        "year": 2024,
+        "pages": "??-??",
+        "type": "short",
+        "video_url": "na"
+    },
+    {
+        "title": "APE: Active Learning-based Tooling for Finding Informative Few-shot Examples for LLM-based Entity Matching",
+        "venue_short": "DaSH@NAACL 2024",
+        "venue_full": "Workshop on Data Science with Human in the Loop",
+        "authors": [
+          "Kun Qian", "Yisi Sang", "Farima Bayat", "Anton Belyy",
+          "Xianqi Chu", "Yash Govind", "Samira Khorshidi",
+          "Rahul Khot", "Katherine Luna", "Azadeh Nikfarjam",
+          "Xiaoguang Qi", "Fei Wu", "Xianhan Zhang", "Yunyao Li"
+        ],
+        "pending_publishing":true,
+        "year": 2024,
+        "pages": "??-??",
+        "type": "short",
+        "video_url": "na"
+    },
+   {
         "title": "FLEEK: Factual Error Detection and Correction with Evidence Retrieved from External Knowledge",
         "venue_short": "EMNLP 2023",
         "venue_full": "The 2023 Conference on Empirical Methods in Natural Language Processing",
@@ -14,11 +50,10 @@
           "Ihab Ilyas",
           "Yunyao Li"
         ],
-        "pending_publishing":true,
         "year": 2023,
-        "pages": "??-??",
+        "pages": "124-130",
         "type": "demo",
-        "video_url": "na",
+        "video_url": "https://aclanthology.org/2023.emnlp-demo.10.mp4",
         "note": "Intern project that I mentored"
     },
   {
@@ -76,7 +111,8 @@
         "pages": "??-??",
         "type": "regular",
         "pdf_url": "na",
-        "video_url": "na"
+        "video_url": "na",
+        "note": "Intern project that I mentored"
     },
     {
         "title": "XNLP: A Living Survey for XAI Research in Natural Language Processing",
@@ -154,7 +190,8 @@
         "video_url": "na",
         "award": "Best Post/Demo",
         "bibtex_file": "iswc2020.bib",
-        "award_url": "https://twitter.com/iswc_conf/status/1324766153366011908"
+        "award_url": "https://twitter.com/iswc_conf/status/1324766153366011908",
+        "note": "Intern project that I mentored"
        },    
     {
      "title": "Explainability for Natural Language Processing.",
@@ -295,7 +332,8 @@
      "pdf_url": "https://www.aclweb.org/anthology/P19-1586/",
      "websiste": "na",
      "video_url": "na",
-     "bibtex_file": "acl2019.bib"
+     "bibtex_file": "acl2019.bib",
+     "note": "Intern project that I mentored"
     },
     {
      "title": "SystemER: A Human-in-the-loop System for Explainable Entity Resolution.",
@@ -349,6 +387,7 @@
     "type": "regular",
     "pdf_url": "https://www.aclweb.org/anthology/C18-1058.pdf",
     "bibtex_file": "coling2018.bib",
+    "note": "Intern project that I mentored",
     "abstract": "Fundamental to several knowledge-centric applications is the need to identify named entities from their textual mentions. However, entities lack a unique representation and their mentions can differ greatly. These variations arise in complex ways that cannot be captured using textual similarity metrics. However, entities have underlying structures, typically shared by entities of the same entity type, that can help reason over their name variations. Discovering, learning and manipulating these structures typically requires high manual effort in the form of large amounts of labeled training data and handwritten transformation programs. In this work, we propose an active-learning based framework that drastically reduces the labeled data required to learn the structures of entities. We show that programs for mapping entity mentions to their structures can be automatically generated using human-comprehensible labels. Our experiments show that our framework consistently outperforms both handwritten programs and supervised learning models. We also demonstrate the utility of our framework in relation extraction and entity resolution tasks."
     },
     {
@@ -368,7 +407,8 @@
      "pdf_url": "https://ieeexplore.ieee.org/document/8509410",
      "websiste": "na",
      "video_url": "https://youtu.be/llaT4Sz6uI4",
-     "bibtex_file": "lustre.bib"
+     "bibtex_file": "lustre.bib",
+      "note": "Intern project that I mentored"
     },
     {
      "title": "Active Learning of GAV Schema Mappings.",
