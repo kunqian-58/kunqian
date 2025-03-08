@@ -1,4 +1,15 @@
 [
+  {
+    "title": "FISQL: Enhancing Text-to-SQL Systems with Rich Interactive Feedback",
+    "venue_short": "EDBT 2025",
+    "venue_full": "",
+    "authors": ["Rakesh Menon", "Kun Qian", "Liqun Chen", "Ishika Joshi", "Daniel Pandyan", "Shashank Srivastava", "Yunyao Li"],
+    "pending_publishing": false,
+    "year": 2025,
+    "type": "full",
+    "video_url": "na",
+    "work_done_at": "Adobe"
+  },
     {
         "title": "Time Sensitive Knowledge Editing through Efficient Finetuning",
         "venue_short": "ACL 2024",
@@ -13,12 +24,12 @@
           "Mostafa Arefiyan",
           "Yunyao Li"
         ],
-        "pending_publishing":true,
+        "pending_publishing": false,
         "year": 2024,
-        "pages": "??-??",
         "type": "short",
         "video_url": "na",
-        "pdf_url": "https://openreview.net/pdf?id=wL4yc7pUmG"
+        "pdf_url": "https://aclanthology.org/2024.acl-short.53.pdf",
+      "work_done_at": "Apple"
     },
     {
         "title": "Evaluation and Continual Improvement for an Enterprise AI Assistant",
@@ -28,11 +39,13 @@
           "Akash V. Maharaj","Kun Qian", "Uttaran Bhattacharya", "Sally Fang", "Horia Galatanu",
           "Manas Garg", "Rachel Hanessian", "Nishant Kapoor", "Ken Russell", "Shivakumar Vaithyanathan","Yunyao Li"
         ],
-        "pending_publishing":true,
+        "pending_publishing": false,
         "year": 2024,
         "pages": "??-??",
         "type": "short",
-        "video_url": "na"
+        "video_url": "na",
+        "pdf_url": "https://aclanthology.org/2024.dash-1.3.pdf",
+      "work_done_at": "Adobe"
     },
     {
         "title": "APE: Active Learning-based Tooling for Finding Informative Few-shot Examples for LLM-based Entity Matching",
@@ -44,11 +57,13 @@
           "Rahul Khot", "Katherine Luna", "Azadeh Nikfarjam",
           "Xiaoguang Qi", "Fei Wu", "Xianhan Zhang", "Yunyao Li"
         ],
-        "pending_publishing":true,
+        "pending_publishing":false,
         "year": 2024,
         "pages": "??-??",
         "type": "short",
-        "video_url": "na"
+        "video_url": "na",
+        "pdf_url": "https://aclanthology.org/2024.dash-1.1.pdf",
+        "work_done_at": "Apple"
     },
    {
         "title": "FLEEK: Factual Error Detection and Correction with Evidence Retrieved from External Knowledge",
@@ -69,7 +84,8 @@
         "pages": "124-130",
         "type": "demo",
         "video_url": "https://aclanthology.org/2023.emnlp-demo.10.mp4",
-        "note": "Intern project that I mentored"
+        "note": "Intern project that I mentored",
+        "work_done_at": "Apple"
     },
   {
         "title": "Improving Human Annotation Effectiveness for Fact Collection by Identifying the Most Relevant Answers.",
@@ -90,7 +106,8 @@
         "type": "regular",
         "video_url": "na",
         "pdf_url":"https://aclanthology.org/2022.dash-1.10.pdf",
-        "bibtex_file":"dash2020.bib"
+        "bibtex_file":"dash2020.bib",
+        "work_done_at": "Apple"
     },{
         "title": "Explainability for Natural Language Processing.",
         "venue_short": "SIGKDD 2021",
@@ -108,7 +125,8 @@
         "type": "tutorial",
         "video_url": "na",
         "pdf_url":"na",
-        "link":"https://xainlp.github.io/kddtutorial/"
+        "link":"https://xainlp.github.io/kddtutorial/",
+        "work_done_at": "IBM Research"
     },
     {
         "title": "Who needs to know what, when?: Broadening the Explainable AI (XAI) Design Space by Looking at Explanations Across the AI Lifecycle ",
@@ -127,7 +145,8 @@
         "type": "regular",
         "pdf_url": "na",
         "video_url": "na",
-        "note": "Intern project that I mentored"
+        "note": "Intern project that I mentored",
+        "work_done_at": "IBM Research"
     },
     {
         "title": "XNLP: A Living Survey for XAI Research in Natural Language Processing",
@@ -148,7 +167,8 @@
         "pdf_url": "https://dl.acm.org/doi/abs/10.1145/3397482.3450728",
         "video_url": "na",
         "link": "https://xainlp2020.github.io/xainlp/",
-        "bibtex_file": "xnlp.bib"
+        "bibtex_file": "xnlp.bib",
+        "work_done_at": "IBM Research"
     },
     {
         "title": "Learning Structured Representations of Entity Names using Active Learning and Weak Supervision",
@@ -166,7 +186,8 @@
         "pdf_url": "https://www.aclweb.org/anthology/2020.emnlp-main.517/",
         "video_url": "na",
         "acceptance_rate": "16.7% - short paper",
-        "bibtex_file": "emnlp2020.bib"
+        "bibtex_file": "emnlp2020.bib",
+        "work_done_at": "IBM Research"
     },
     {
         "title": "A Survey of the State of Explainable AI for Natural Language Processing",
@@ -185,7 +206,8 @@
         "type": "regular",
         "pdf_url": "https://www.aclweb.org/anthology/2020.aacl-main.46/",
         "bibtex_file": "aacl2020_survey.bib",
-        "video_url": "na"
+        "video_url": "na",
+        "work_done_at": "IBM Research"
     }, 
     {
         "title": "Ontology Mediated Information Extraction with MASTRO SYSTEM-T",
@@ -206,7 +228,8 @@
         "award": "Best Post/Demo",
         "bibtex_file": "iswc2020.bib",
         "award_url": "https://twitter.com/iswc_conf/status/1324766153366011908",
-        "note": "Intern project that I mentored"
+        "note": "Intern project that I mentored",
+        "work_done_at": "IBM Research"
        },    
     {
      "title": "Explainability for Natural Language Processing.",
@@ -224,7 +247,8 @@
      "pages": "??-??",
      "type": "tutorial",
      "pdf_url": "https://xainlp2020.github.io/xainlp/",
-     "video_url": "https://www.youtube.com/watch?v=3tnrGe_JA0s"
+     "video_url": "https://www.youtube.com/watch?v=3tnrGe_JA0s",
+      "work_done_at": "IBM Research"
     },    
     {
         "title": "An Intuitive User Interface for Human-in-the-loop Entity Name Parsing and Entity Variant Generation.",
@@ -239,26 +263,28 @@
         "pages": "??-??",
         "type": "regular",
         "pdf_url": "https://drive.google.com/file/d/1-NT7dHEiMxaAjvIIbr1lll6XL-BelcCe/view",
-        "video_url": "na"
+        "video_url": "na",
+        "work_done_at": "IBM Research"
     },
     {
-     "title": "Answering Complex Questions by Combining Information from Curatedand Extracted Knowledge Bases.",
-     "venue_short": "ACL-NLI 2020",
-     "venue_full": "1st Workshop on Natural Language Interfaces @ ACL 2020",
-     "authors": [
-      "Nikita Bhutani",
-      "Xinyi Zheng",
-      "Kun Qian",
-      "Yunyao Li",
-      "H.V. Jagadish"
-     ],
-     "year": 2020,
-     "pages": "??-??",
-     "type": "regular",
-     "pdf_url": "https://www.aclweb.org/anthology/2020.nli-1.1/",
-     "video_url": "na",
-     "bibtex_file": "acl_nli.bib",
-     "bibtex_url": "https://www.aclweb.org/anthology/2020.nli-1.1.bib"
+       "title": "Answering Complex Questions by Combining Information from Curatedand Extracted Knowledge Bases.",
+       "venue_short": "ACL-NLI 2020",
+       "venue_full": "1st Workshop on Natural Language Interfaces @ ACL 2020",
+       "authors": [
+        "Nikita Bhutani",
+        "Xinyi Zheng",
+        "Kun Qian",
+        "Yunyao Li",
+        "H.V. Jagadish"
+       ],
+       "year": 2020,
+       "pages": "??-??",
+       "type": "regular",
+       "pdf_url": "https://www.aclweb.org/anthology/2020.nli-1.1/",
+       "video_url": "na",
+       "bibtex_file": "acl_nli.bib",
+       "bibtex_url": "https://www.aclweb.org/anthology/2020.nli-1.1.bib",
+        "work_done_at": "IBM Research"
     },
     {
      "title": "XAIT: An Interactive Website for Explainable AI for Text.",
@@ -275,7 +301,8 @@
      "type": "demo",
      "pdf_url": "https://dl.acm.org/doi/abs/10.1145/3379336.3381468",
      "video_url": "na",
-     "bibtex_file": "xait.bib"
+     "bibtex_file": "xait.bib",
+      "work_done_at": "IBM Research"
     },
     {
      "title": "PARTNER: Human-in-the-loop Entity Understanding with Deep Learning.",
@@ -292,7 +319,8 @@
      "type": "demo",
      "pdf_url": "https://aaai.org/ojs/index.php/AAAI/article/view/7104",
      "video_url": "https://youtu.be/6DDXARJezz4",
-     "bibtex_file": "partner.bib"
+     "bibtex_file": "partner.bib",
+      "work_done_at": "IBM Research"
     },
     {
      "title": "Learning-based Human-in-the-loop Methods for Entity Resolution.",
@@ -310,7 +338,8 @@
      "pdf_url": "https://ertutorial-arc.github.io/",
      "websiste": "https://ertutorial-arc.github.io/",
      "video_url": "na",
-     "bibtex_file": "cikm_er_tutorial.bib"
+     "bibtex_file": "cikm_er_tutorial.bib",
+      "work_done_at": "IBM Research"
     },
     {
      "title": "Learning Explainable Entity Resolution Algorithms for Small Business Data using SystemER.",
@@ -328,7 +357,8 @@
      "pdf_url": "https://dl.acm.org/doi/10.1145/3336499.3338010",
      "websiste": "na",
      "video_url": "na",
-     "bibtex_file": "dsmm2019.bib"
+     "bibtex_file": "dsmm2019.bib",
+      "work_done_at": "IBM Research"
     },
     {
      "title": "Low-resource Deep Entity Resolution with Transfer and Active Learning.",
@@ -348,7 +378,8 @@
      "websiste": "na",
      "video_url": "na",
      "bibtex_file": "acl2019.bib",
-     "note": "Intern project that I mentored"
+     "note": "Intern project that I mentored",
+      "work_done_at": "IBM Research"
     },
     {
      "title": "SystemER: A Human-in-the-loop System for Explainable Entity Resolution.",
@@ -365,7 +396,8 @@
      "pdf_url": "http://www.vldb.org/pvldb/vol12/p1794-qian.pdf",
      "websiste": "na",
      "video_url": "https://youtu.be/5ENye9hg-UA",
-     "bibtex_file": "systemer_demo.bib"
+     "bibtex_file": "systemer_demo.bib",
+      "work_done_at": "IBM Research"
     },
     {
      "title": "Knowledge Refinement via Rule Selection.",
@@ -383,7 +415,8 @@
      "websiste": "na",
      "video_url": "na",
      "bibtex_file": "aaai2019.bib",
-     "acceptance_rate": "16.2%"
+     "acceptance_rate": "16.2%",
+      "work_done_at": "IBM Research"
     },
     {
     "title": "Exploiting Structure in Representation of Named Entities using Active Learning",
@@ -403,6 +436,7 @@
     "pdf_url": "https://www.aclweb.org/anthology/C18-1058.pdf",
     "bibtex_file": "coling2018.bib",
     "note": "Intern project that I mentored",
+      "work_done_at": "IBM Research",
     "abstract": "Fundamental to several knowledge-centric applications is the need to identify named entities from their textual mentions. However, entities lack a unique representation and their mentions can differ greatly. These variations arise in complex ways that cannot be captured using textual similarity metrics. However, entities have underlying structures, typically shared by entities of the same entity type, that can help reason over their name variations. Discovering, learning and manipulating these structures typically requires high manual effort in the form of large amounts of labeled training data and handwritten transformation programs. In this work, we propose an active-learning based framework that drastically reduces the labeled data required to learn the structures of entities. We show that programs for mapping entity mentions to their structures can be automatically generated using human-comprehensible labels. Our experiments show that our framework consistently outperforms both handwritten programs and supervised learning models. We also demonstrate the utility of our framework in relation extraction and entity resolution tasks."
     },
     {
@@ -423,7 +457,8 @@
      "websiste": "na",
      "video_url": "https://youtu.be/llaT4Sz6uI4",
      "bibtex_file": "lustre.bib",
-      "note": "Intern project that I mentored"
+      "note": "Intern project that I mentored",
+      "work_done_at": "IBM Research"
     },
     {
      "title": "Active Learning of GAV Schema Mappings.",
@@ -441,7 +476,8 @@
      "pdf_url": "https://dl.acm.org/doi/10.1145/3196959.3196974",
      "websiste": "na",
      "video_url": "https://youtu.be/FsQttqJQLXA",
-     "bibtex_file": "pods2018.bib"
+     "bibtex_file": "pods2018.bib",
+      "work_done_at": "UC Santa Cruz"
     },
     {
      "title": "Active Learning for Large-Scale Entity Resolution.",
@@ -458,7 +494,8 @@
      "pdf_url": "https://dl.acm.org/doi/10.1145/3132847.3132949",
      "websiste": "na",
      "video_url": "na",
-     "bibtex_file": "cikm2017.bib"
+     "bibtex_file": "cikm2017.bib",
+      "work_done_at": "IBM Research/UC Santa Cruz"
     },
     {
      "title": "Approximation Algorithms for Schema-Mapping Discovery from Data Examples.",
@@ -476,7 +513,8 @@
      "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3044712",
      "websiste": "na",
      "video_url": "na",
-     "bibtex_file": "tods2017.bib"
+     "bibtex_file": "tods2017.bib",
+      "work_done_at": "UC Santa Cruz"
     },
     {
      "title": "Approximation Algorithms for Schema-Mapping Discovery from Data Examples.",
@@ -493,6 +531,7 @@
      "type": "regular",
      "pdf_url": "http://ceur-ws.org/Vol-1378/AMW_2015_paper_7.pdf",
      "websiste": "na",
-     "video_url": "na"
+     "video_url": "na",
+      "work_done_at": "UC Santa Cruz"
     }
    ]
