@@ -1,8 +1,19 @@
 [
   {
+    "title": "DaSH - Data Science with Human-in-the-loop (workshop co-chair)",
+    "venue_short": "VLDB 2025",
+    "venue_full": "51st International Conference on Very Large Data Bases",
+    "authors": ["Eduard Dragut", "Lucian Popa", "Yunyao Li", "Kun Qian", "Sherry Wu"],
+    "pending_publishing": false,
+    "year": 2025,
+    "type": "workshop",
+    "webpage_url": "https://www.dashworkshops.org/",
+    "work_done_at": "Adobe"
+  },
+  {
     "title": "FISQL: Enhancing Text-to-SQL Systems with Rich Interactive Feedback",
     "venue_short": "EDBT 2025",
-    "venue_full": "",
+    "venue_full": "28th International Conference on Extending Database Technology",
     "authors": ["Rakesh Menon", "Kun Qian", "Liqun Chen", "Ishika Joshi", "Daniel Pandyan", "Shashank Srivastava", "Yunyao Li"],
     "pending_publishing": false,
     "year": 2025,
