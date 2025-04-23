@@ -1,4 +1,14 @@
-[
+[ {
+    "title": "Evaluation and Incident Prevention in an Enterprise AI Assistant",
+    "venue_short": "IAAI 2025",
+    "venue_full": "The Thirty-Seventh Annual Conference on Innovative Applications of Artificial Intelligence",
+    "authors": ["Akash V Maharaj", "David Arbour", "Daniel Lee", "Uttaran Bhattacharya", "Anup Rao", "Austin Zane", "Avi Feller", "Kun Qian", "Yunyao Li"],
+    "pending_publishing": false,
+    "year": 2025,
+    "type": "full",
+    "webpage_url": "https://www.dashworkshops.org/",
+    "work_done_at": "Adobe"
+},
   {
     "title": "DaSH - Data Science with Human-in-the-loop (workshop co-chair)",
     "venue_short": "VLDB 2025",
