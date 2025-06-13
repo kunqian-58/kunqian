@@ -1,4 +1,25 @@
-[ {
+[
+  {
+    "title": "EVOSCHEMA: Toward Text-to-SQL Robustness Against Schema Evolution",
+    "venue_short": "VLDB 2025",
+    "venue_full": "The 51st International Conference on Very Large Data Bases 2025",
+    "authors": ["Tianshu Zhang", "Kun Qian", "Siddhartha Sahai", "Yuan Tian","Shaddy Garg", "Huan Sun", "Yunyao Li"],
+    "pending_publishing": true,
+    "year": 2025,
+    "type": "full",
+    "work_done_at": "Adobe"
+},
+  {
+    "title": "Adobe Summit Concierge Evaluation with human in the loop",
+    "venue_short": "DaSH 2025",
+    "venue_full": "The 6th Workshop on Data Science with Human-in-the-loop",
+    "authors": ["Yiru Chen", "Sally Fang", "Sai Sree Harsha", "Dan Luo", "Vaishnavi Muppala", "Fei Wu", "Shun Jiang", "Kun Qian", "Yunyao Li"],
+    "pending_publishing": true,
+    "year": 2025,
+    "type": "full",
+    "work_done_at": "Adobe"
+},
+  {
     "title": "Evaluation and Incident Prevention in an Enterprise AI Assistant",
     "venue_short": "IAAI 2025",
     "venue_full": "The Thirty-Seventh Annual Conference on Innovative Applications of Artificial Intelligence",
@@ -6,6 +27,7 @@
     "pending_publishing": false,
     "year": 2025,
     "type": "full",
+    "award": "Best Paper",
     "webpage_url": "https://www.dashworkshops.org/",
     "work_done_at": "Adobe"
 },
